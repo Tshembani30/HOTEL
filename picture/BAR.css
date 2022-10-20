@@ -1,0 +1,62 @@
+body{
+
+    background-color: rgba(239, 205, 119, 0.903);
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    color: rgb(223, 19, 19);
+}
+
+#container {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(219, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgba(239, 205, 119, 0.903); */
+    cursor: pointer;
+
+}
+
+img {
+
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 45vh;
+    /* background: rgba(121, 117, 114, 0.664); */
+    margin-right: 5%;
+
+}
+img:hover {
+    transform: scale(0.59);
+    border: solid;
+   transition: 4s;
+}
+
+.home:hover {
+    background-color: rgb(181, 135, 135);
+    transition: height s;
+    transform: scale(1.05);
+    border: solid;
+    cursor: pointer;
+}
+
+a.href {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:link {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
