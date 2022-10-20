@@ -60,3 +60,8 @@ a:link {
     text-align: center;
     display: inline-block;
 }
+
+body{
+
+    font-weight: 100;
+}
